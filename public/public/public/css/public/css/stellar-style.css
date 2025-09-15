@@ -1,0 +1,61 @@
+/* Base styles for ÉLÉA Interface */
+
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Messages container */
+#messages-container {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* Input zone */
+#input-zone {
+  display: flex;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#message-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+#send-button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+#send-button:hover {
+  background: #666;
+}
+
+/* Messages */
+.user-message {
+  text-align: right;
+  margin: 5px;
+  color: #0ff;
+}
+
+.elea-message {
+  text-align: left;
+  margin: 5px;
+  color: #ff0;
+}
